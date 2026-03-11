@@ -7,9 +7,9 @@ Project Name: Student Tracker Using Java
 
 ## 📌 Project Overview
 
-        Study Tracker is a Java console-based application designed to help students track their daily study activities.
-        The application allows users to record study sessions, view logs, generate summaries, and export data to a CSV file.
-        This project demonstrates the use of Object-Oriented Programming (OOP), Collections Framework, File Handling, and Java Time API.
+Study Tracker is a Java console-based application designed to help students track their daily study activities.
+The application allows users to record study sessions, view logs, generate summaries, and export data to a CSV file.
+This project demonstrates the use of Object-Oriented Programming (OOP), Collections Framework, File Handling, and Java Time API.
 
 ---
 
@@ -41,6 +41,7 @@ By Status (Done/Pending)
 -TreeMap
 -File Handling (CSV Export)
 -LocalDate API
+---
 
 ## 📂 Project Structure
 ```
@@ -50,7 +51,10 @@ StudyTracker/
 |--StudyTracker.csv
 |-- README.md
 ```
+---
+
 ## The project provides :
+---
 
 ### 1. Insert Study Log Management  
 
@@ -61,6 +65,7 @@ Users can insert new study records with the following details:
         Duration (in hours)  
         Description of the study activity 
         Status (Done / Pending)
+---
 
 ### 2. Display Logs
 
@@ -72,12 +77,14 @@ Each entry shows:
         Time spent  
         Description  
         Status
+---
 
 ### 3. Summary Reports  
 
 Summary by Date: Caluculates and displays total study hours per day.  
 Summary by Subject : Displays Subject and time spent on it per day. 
 Summary by Status : Display Status and time soend on it per day.
+----
 
 ### 4. Menu-Driven Interface  
 
@@ -88,19 +95,24 @@ User-friendly console menu with numbered options:
         Summaries  
         Export to CSV  
         Exit  
+---
 
 ### 5. Key Benefits
 
 Helps students identify and analyze study patterns.  
 Improves time management and productivity.  
 Provides structured data for academic tracking through CSV export.  
+----
 
 ### 6.📁 CSV Export Feature  
 
 Exports all study logs into a CSV file (Study.csv).  
 The file can be opened in Excel, Google Sheets, or any spreadsheet tool.  
+----
 
 ### 7. Scope for Future Enhancements  
 
 Retain previous data from .csv file.  
 Update realtime data in csv for every log entry
+Convert to GUI using Java Swing or JavaFX
+Filter logs by date range
