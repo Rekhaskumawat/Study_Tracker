@@ -1,16 +1,14 @@
 # Study Tracker App
 
-The Student Tracker is a console-based C++ application designed to help students log, review, and analyze their daily study sessions efficiently. It serves as a digital study diary that enables better time management and productivity tracking.
+        The Student Tracker is a console-based C++ application designed to help students log, review, and analyze their daily study sessions efficiently. It serves as a digital study diary that enables better time management and productivity tracking.
 
-Project Name: Student Tracker Using Java
-
+        Project Name: Student Tracker Using Java
+---
 ##📌 Project Overview
 
-Study Tracker is a Java console-based application designed to help students track their daily study activities.
-
-The application allows users to record study sessions, view logs, generate summaries, and export data to a CSV file.
-
-This project demonstrates the use of Object-Oriented Programming (OOP), Collections Framework, File Handling, and Java Time API.
+        Study Tracker is a Java console-based application designed to help students track their daily study activities.
+        The application allows users to record study sessions, view logs, generate summaries, and export data to a CSV file.
+        This project demonstrates the use of Object-Oriented Programming (OOP), Collections Framework, File Handling, and Java Time API.
 
 ---
 
