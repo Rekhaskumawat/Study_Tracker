@@ -318,7 +318,7 @@ class StudyTrackerFunctionality
     //////////////////////////////////////////////////////////////////////////////////////////////////
     //
     // Method Name : SummaryByStatus
-    // Description : Shows total study hours grouped by Status (Done / Pending)
+    // Description : Shows subject and time by Status (Done / Pending)
     //
     //////////////////////////////////////////////////////////////////////////////////////////////////
     
@@ -340,23 +340,24 @@ class StudyTrackerFunctionality
 
         for(StudyLog sobj :Database)
         {
-            String s = sobj.getStatus();
+            // Combine Subject and Status as key
+            String key = sobj.getSubject() + " | " + sobj.getStatus();
             double d = sobj.getDuration();
 
-            if(tobj.containsKey(s))
+            if(tobj.containsKey(key))
             {
-                double old = tobj.get(s);
-                tobj.put(s, d+old);
+                double old = tobj.get(key);
+                tobj.put(key, d+old);
             }
             else
             {
-                tobj.put(s, d);
+                tobj.put(key, d);
             }
         }
 
         for(String str : tobj.keySet())
         {
-            System.out.println("Status : "+str+" || Total study duration : "+tobj.get(str));
+            System.out.println(str+" || Total study duration : "+tobj.get(str));
         }
 
         System.out.println("----------------------------------------------------");
