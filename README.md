@@ -3,6 +3,7 @@
 The StudyPulse is a console-based Java application designed to help students log, review, and analyze their daily study sessions efficiently. It serves as a digital study diary that enables better time management and productivity tracking.
 
 Project Name: StudyPulse Using Java
+
 ---
 
 ## 📌 Project Overview
@@ -39,6 +40,7 @@ This project demonstrates the use of Object-Oriented Programming (OOP), Collecti
 -TreeMap
 -File Handling (CSV Export)
 -LocalDate API
+
 ---
 
 ## 📂 Project Structure
@@ -52,6 +54,7 @@ StudyTracker/
 ---
 
 ## The project provides :
+
 ---
 
 ### 1. Insert Study Log Management  
@@ -63,6 +66,7 @@ Users can insert new study records with the following details:
         Duration (in hours)  
         Description of the study activity 
         Status (Done / Pending)
+
 ---
 
 ### 2. Display Logs
@@ -75,13 +79,15 @@ Each entry shows:
         Time spent  
         Description  
         Status
+
 ---
 
 ### 3. Summary Reports  
 
 Summary by Date: Caluculates and displays total study hours per day.  
 Summary by Subject : Displays Subject and time spent on it per day. 
-Summary by Status : Display Status and time soend on it per day.
+Summary by Status : Display Status and time spend on it per day.
+
 ----
 
 ### 4. Menu-Driven Interface  
@@ -92,20 +98,23 @@ User-friendly console menu with numbered options:
         View Logs  
         Summaries  
         Export to CSV  
-        Exit  
+        Exit 
+ 
 ---
 
 ### 5. Key Benefits
 
 Helps students identify and analyze study patterns.  
 Improves time management and productivity.  
-Provides structured data for academic tracking through CSV export.  
+Provides structured data for academic tracking through CSV export. 
+
 ----
 
 ### 6.📁 CSV Export Feature  
 
 Exports all study logs into a CSV file (Study.csv).  
 The file can be opened in Excel, Google Sheets, or any spreadsheet tool.  
+
 ----
 
 ### 7. Scope for Future Enhancements  
